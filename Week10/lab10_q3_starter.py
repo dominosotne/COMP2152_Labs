@@ -101,7 +101,7 @@ def safe_query(query):
         cursor.execute(query)
         return cursor.fetchall()
     except sqlite3.Error as e:
-        print(f"Database error: {e}")
+        print(f"Database error: {e}", file=sys.stderr)
         return []
     finally:
         conn.close()
