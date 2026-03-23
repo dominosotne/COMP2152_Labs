@@ -1,3 +1,8 @@
+#  WEEK 06 LAB: NETWORK DIAGNOSTIC LOGGER
+#  COMP2152 — Windows Version
+#  Alikhan Zhilkibayev
+
+
 import subprocess
 import csv
 from datetime import datetime
